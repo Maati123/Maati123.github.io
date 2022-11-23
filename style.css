@@ -143,7 +143,7 @@ button:hover {
 }
 
 span {
-  background-image: linear-gradient(rgb(255, 174, 0), rgb(255, 145, 0));
+  background-image: linear-gradient(rgb(255, 174, 0, 0), rgb(255, 145, 0, 0.5));
   height: 0%;
   width: 100%;
   border-radius: 9px;
@@ -155,5 +155,5 @@ span {
 }
 
 button:hover span {
-  height: 100%;
+  height: 80%;
 }
